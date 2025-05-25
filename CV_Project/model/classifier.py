@@ -4,7 +4,7 @@ from PIL import Image
 
 # Load your classification model
 def load_classification_model():
-    model = torch.load("path_to_classification_model.pth", map_location=torch.device('cpu'))
+    model = torch.load("CV_Project/NoteBooks/Image_Classification_Final.ipynb", map_location=torch.device('cpu'))
     model.eval()
     return model
 
