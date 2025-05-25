@@ -8,7 +8,7 @@ print("🟡 Python Path:", sys.path)
 
 import streamlit as st
 from PIL import Image
-from models.classifier import load_classification_model, classify_image
+#from models.classifier import load_classification_model, classify_image
 from models.object_detector import load_yolo_model, detect_objects
 import tempfile
 
