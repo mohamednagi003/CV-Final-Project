@@ -1,3 +1,11 @@
+import os
+import sys
+
+print("🟡 Current Working Directory:", os.getcwd())
+print("🟡 Directory Contents:", os.listdir())
+print("🟡 Python Path:", sys.path)
+
+
 import streamlit as st
 from PIL import Image
 from models.classifier import load_classification_model, classify_image
